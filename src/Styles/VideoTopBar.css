@@ -1,4 +1,17 @@
 .VideoTopBar {
   position: absolute;
-  top: 0;
+  top: 5px;
+  right: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  color: white;
+}
+
+.camera-icon {
+  /* color: white !important; */
+  /* cursor: pointer !important; */
+  /* pointer-events: auto !important; */
 }

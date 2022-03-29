@@ -4,6 +4,7 @@
   position: relative;
   scroll-snap-align: start;
 }
+
 .video {
   width: auto;
   height: 100%;

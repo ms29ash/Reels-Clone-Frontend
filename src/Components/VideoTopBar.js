@@ -5,12 +5,10 @@ import CameraAltOutlinedIcon from '@mui/icons-material/CameraAltOutlined';
 function VideoTopBar() {
     return (
         <div className="VideoTopBar">
-            <h1>REELS</h1>
+            <h2>REELS</h2>
             <CameraAltOutlinedIcon className="camera-icon" />
-
-
         </div>
     )
 }
 
-export default VideoTopBar
+export default VideoTopBar;

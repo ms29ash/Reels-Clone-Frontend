@@ -1,0 +1,55 @@
+.videoBottom {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  left: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+.id {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.description {
+  font-size: 0.8rem;
+}
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ticker {
+  width: 60%;
+  font-size: 0.8rem;
+  flex: 1;
+  height: fit-content;
+}
+
+.disk {
+  width: 40px;
+  animation: ticker-spin 2.5s linear infinite;
+}
+
+@keyframes ticker-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
