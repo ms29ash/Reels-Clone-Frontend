@@ -1,0 +1,24 @@
+.sideBar {
+    position: absolute;
+    right: 10px;
+    height: 25%;
+    z-index: 50;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.like,
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.like,
+.comment,
+.share {
+    cursor: pointer;
+}

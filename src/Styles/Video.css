@@ -10,3 +10,18 @@
   height: 100%;
   border-radius: 6px;
 }
+
+.icon-play {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  color: white;
+  /* align-items: center; */
+  place-items: center;
+}
+.play,
+.pause {
+  /* display: none !important; */
+}
