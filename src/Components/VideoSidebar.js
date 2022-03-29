@@ -7,7 +7,7 @@ import ModeCommentOutlinedIcon from '@mui/icons-material/ModeCommentOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import { pink } from '@mui/material/colors';
 
-function VideoSidebar() {
+function VideoSidebar({ likes, comments }) {
     const [liked, setLike] = useState(false);
     return (
         <div className="sideBar">
@@ -25,12 +25,12 @@ function VideoSidebar() {
                 }
 
 
-                <p>9549</p>
+                <p>{liked ? likes + 1 : likes}</p>
             </div>
             <div className="comment">
 
                 <ModeCommentOutlinedIcon fontSize="medium" />
-                <p>99</p>
+                <p>{comments}</p>
             </div>
             <SendOutlinedIcon className="share" fontSize="medium" />
 

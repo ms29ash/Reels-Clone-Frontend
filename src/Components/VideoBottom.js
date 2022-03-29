@@ -4,18 +4,17 @@ import Ticker from 'react-ticker'
 
 
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import AlbumTwoToneIcon from '@mui/icons-material/AlbumTwoTone';
 
-function VideoBottom() {
+function VideoBottom({ imgUrl, song, channel, description }) {
     return (
         <div className="videoBottom">
             <div className="id">
-                <img className="img" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
-                <p>Rahul Khanna</p>
+                <img className="img" src={imgUrl} alt="" />
+                <p>{channel}</p>
 
             </div>
             <p className="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                {description}
             </p>
 
             <div className="song">
@@ -25,7 +24,7 @@ function VideoBottom() {
                 <Ticker mode="smooth" className="ticker">
                     {({ index }) => (
                         <>
-                            <p>This is the Headline of element </p>
+                            <p>{song} </p>
                         </>
                     )}
                 </Ticker>
