@@ -1,0 +1,11 @@
+.video-container {
+  height: 80vh;
+  overflow-y: hidden;
+  position: relative;
+  scroll-snap-align: start;
+}
+.video {
+  width: auto;
+  height: 100%;
+  border-radius: 6px;
+}
