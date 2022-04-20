@@ -1,11 +1,11 @@
 .App {
   background-color: black;
-  overflow: scroll;
+  overflow: hidden;
   height: 100vh;
 }
 
 .videos {
-  height: 80vh;
+  height: 100vh;
   position: relative;
   overflow: scroll;
   scroll-snap-type: y mandatory;

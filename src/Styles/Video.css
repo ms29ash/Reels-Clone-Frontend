@@ -1,5 +1,7 @@
 .video-container {
-  height: 80vh;
+  height: 100vh;
+  width: auto;
+  /* width: 1; */
   overflow-y: hidden;
   position: relative;
   scroll-snap-align: start;
@@ -7,8 +9,10 @@
 
 .video {
   width: auto;
-  height: 100%;
-  border-radius: 6px;
+  height: 98%;
+  border-radius: 3px;
+  margin: 2vh 0;
+  object-fit: contain;
 }
 
 .icon-play {

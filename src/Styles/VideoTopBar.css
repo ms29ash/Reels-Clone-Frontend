@@ -1,6 +1,6 @@
 .VideoTopBar {
   position: absolute;
-  top: 5px;
+  top: 15px;
   right: 10px;
   left: 10px;
   display: flex;
@@ -8,6 +8,7 @@
   justify-content: space-between;
   width: 90%;
   color: white;
+  font-size: 1.5rem;
 }
 
 .camera-icon {
